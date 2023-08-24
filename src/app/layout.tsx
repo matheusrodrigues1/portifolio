@@ -20,9 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link
-            href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
-            rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Passion+One&family=REM:ital,wght@1,700&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
       </link>
       <body className={inter.className}>{children}</body>
     </html>

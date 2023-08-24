@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  //background: radial-gradient(circle at center, #778899, #111111);
+  background-color: #350053
+}
+
+.title {
+  text-align: center;
+  font-size: 190px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Passion One', sans-serif;
+  line-height: 0.7;
+  position: relative;
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Passion One', 'sans-serif'
+}
+
+.greeting {
+  position: absolute;
+  top: -30px;
+  left: 16%;
+  transform: translateX(-50%);
+  color: #A9A9A9;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.icon {
+  font-size: 45px;
+  margin-left: 30px;
+  margin-top: 3px;
+  vertical-align: middle;
+  transition: transform 0.2s ease-in-out;
+  color: #F0DC82;
+}
+
+
+.link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.developer {
+  text-align: right;
+  color: white;
+  font-family: 'Passion One', 'sans-serif'
+}
+
+.devInfo {
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  max-width: 500px;
+  text-align: left;
+  line-height: 1.3;
+  right: -60px;
+  font-size: 15px;
+  margin-top: 50px;
+  color: #DCDCDC;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link:hover .icon {
+  transform: translateY(-9px);
+  color: #F0FFFF;
+}
