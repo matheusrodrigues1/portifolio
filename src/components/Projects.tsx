@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Styles from "../../styles/projects.module.scss";
-import Projeto1 from "../../styles/public/project1.png"
+import Styles from "../styles/projects.module.scss";
+import Projeto1 from "../styles/public/project1.png"
 
 export default function Projects() {
   return (
