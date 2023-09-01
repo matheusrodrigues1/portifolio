@@ -1,69 +1,49 @@
 .contactMe {
   width: 100vw;
   height: 50vh;
-  background-image: url(#), linear-gradient(#cdbfe7, #cdbfe7);
-  background-position: 50% 101%, 0 0;
-  background-repeat: no-repeat, repeat;
-  background-size: 100%, auto;
+  background-color: #cdbfe7;
   overflow: hidden;
   display: flex;
+  padding: 45px;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 
   .container {
     width: 100vw;
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: -30px;
-    .newsletter {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      .newsletter1 {
-        height: 13vh;
-        width: 25vw;
-      }
-    }
+    align-items: center;
+  }
 
-    h2 {
-      font-size: 35px;
-      font-weight: 700;
-      margin-bottom: 55px;
-    }
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 70px;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    border: 1px solid black;
+  }
 
-    .emailCopy {
-      width: 70vw;
-      height: 15vh;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      border: 1px solid black;
-      padding: 10px;
-      gap: 15px;
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 70px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #350053;
+    font-size: 24px;
+    color: white;
+  }
 
-      .emailSection {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        span {
-          font-size: 28px;
-          font-weight: bold;
-        }
-      }
-
-      .horizontalLine {
-        flex: none;
-        width: 70vw;
-        background-color: black;
-        height: 1px;
-        margin: 0 10px;
-      }
-    }
+  .copiadoBackground {
+    background: linear-gradient(to bottom, #00b894, #93f3c5);
+    /* Outras propriedades de estilo se necessário */
   }
 
 }

@@ -1,3 +1,4 @@
+'use client'
 import styles from '../styles/page.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -12,13 +13,13 @@ export default function Home1() {
         <span className={styles.react}>
           <p className={styles.greeting}>OI <Emoji text="👋" /> EU SOU O MATHEUS</p>
           REACT
-          <a href="https://github.com/usuario" className={styles.link}>
+          <a href="https://www.linkedin.com/in/matheus-rodrigues-1a1899231/" className={styles.link} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
           </a>
-          <a href="https://github.com/usuario" className={styles.link}>
+          <a href="https://github.com/matheusrodrigues1" className={styles.link} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className={styles.icon} />
           </a>
-          <a href="https://github.com/usuario" className={styles.link}>
+          <a href="https://github.com/usuario" className={styles.link} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFileLines} className={styles.icon} />
           </a>
         </span>
