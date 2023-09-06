@@ -13,7 +13,7 @@ const About = () => {
     <div className={Styles.container}>
       <div className={Styles.cardleft}>
         <p className={Styles.firstParagraph}>
-        Meu nome é Matheus e atualmente resido em Alagoas. Ao longo dos últimos 18 meses, tenho trabalhado como freelancer, principalmente como desenvolvedor frontend. Além disso, tenho experiência em integrações com bancos de dados, APIs e até mesmo em tarefas de implantação
+        Meu nome é Matheus e atualmente resido em Alagoas. Ao longo dos últimos 18 meses, tenho trabalhado como freelancer, principalmente como desenvolvedor frontend. Além disso, tenho experiência em integrações com bancos de dados, APIs e até mesmo em tarefas de implantação.
         </p>
         <p>
         Sou apaixonado por construir websites e aplicativos robustos e minimalistas. Com 1 ano e meio de experiência em diversas tecnologias frontend, incluindo <span>React, HTML, Sass, JavaScript (ES6), Tailwind, MongoDB, NodeJS e Bootstrap</span>, sempre busco qualidade em tudo o que faço. Você pode me encontrar no <span>GitHub</span>, onde gosto de desenvolver projetos pessoais com React/Next/Node.js, ou no LinkedIn, onde frequentemente compartilho meus projetos. Atualmente, estou expandindo minhas habilidades estudando <span>Next.js e TypeScript</span>.
