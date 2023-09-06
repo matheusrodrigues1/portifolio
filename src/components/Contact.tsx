@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Contact = () => {
   const [copiado, setCopiado] = useState(false);
-  const email = 'cmmr1@aluno.ifal.edu.br';
+  const email = 'carlostech873@gmail.com';
 
   const copiarEmail = () => {
     navigator.clipboard.writeText(email);
