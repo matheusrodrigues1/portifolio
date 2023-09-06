@@ -13,10 +13,10 @@ const About = () => {
     <div className={Styles.container}>
       <div className={Styles.cardleft}>
         <p className={Styles.firstParagraph}>
-        Olá! Sou um desenvolvedor frontend em ascensão, empolgado em enfrentar desafios e aprender cada dia mais. Minha jornada envolve explorar ferramentas como ReactJS, Bootstrap, Next.js, HTML e CSS, à medida que transformo designs em interfaces práticas. Busco constantemente melhorar minhas habilidades para criar experiências digitais que unam funcionalidade e estética. Estou entusiasmado com a oportunidade de colaborar em projetos inspiradores que me permitam crescer como desenvolvedor frontend, enquanto contribuo com soluções criativas para criar impacto na web.
+        Meu nome é Matheus e atualmente resido em Alagoas. Ao longo dos últimos 18 meses, tenho trabalhado como freelancer, principalmente como desenvolvedor frontend. Além disso, tenho experiência em integrações com bancos de dados, APIs e até mesmo em tarefas de implantação
         </p>
         <p>
-        Seja na criação de sites modernos ou na construção de aplicativos interativos, minha abordagem centrada no usuário e minha dedicação ao aprimoramento contínuo me mantêm inspirado e comprometido com a criação de soluções excepcionais. Estou ansioso para cada oportunidade que me permita colaborar em projetos inovadores e agregar valor através do poder da tecnologia frontend.
+        Sou apaixonado por construir websites e aplicativos robustos e minimalistas. Com 1 ano e meio de experiência em diversas tecnologias frontend, incluindo <span>React, HTML, Sass, JavaScript (ES6), Tailwind, MongoDB, NodeJS e Bootstrap</span>, sempre busco qualidade em tudo o que faço. Você pode me encontrar no <span>GitHub</span>, onde gosto de desenvolver projetos pessoais com React/Next/Node.js, ou no LinkedIn, onde frequentemente compartilho meus projetos. Atualmente, estou expandindo minhas habilidades estudando <span>Next.js e TypeScript</span>.
         </p>
         <div className={Styles.icons}>
           <a href="https://github.com/usuario" className={Styles.link}>

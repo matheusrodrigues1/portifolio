@@ -15,6 +15,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    h2 {
+      font-weight: bold;
+    }
   }
 
   .action {
@@ -25,7 +29,7 @@
     height: 70px;
     background-color: whitesmoke;
     margin-top: 40px;
-    border: 1px solid black;
+    border: 1px solid transparent;
   }
 
   button {
@@ -34,10 +38,10 @@
     align-items: center;
     width: 65vw;
     height: 70px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     cursor: pointer;
     background-color: #350053;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
   }
 
