@@ -19,10 +19,10 @@ const About = () => {
         Sou apaixonado por construir websites e aplicativos robustos e minimalistas. Com 1 ano e meio de experiência em diversas tecnologias frontend, incluindo <span>React, HTML, Sass, JavaScript (ES6), Tailwind, MongoDB, NodeJS e Bootstrap</span>, sempre busco qualidade em tudo o que faço. Você pode me encontrar no <span>GitHub</span>, onde gosto de desenvolver projetos pessoais com React/Next/Node.js, ou no LinkedIn, onde frequentemente compartilho meus projetos. Atualmente, estou expandindo minhas habilidades estudando <span>Next.js e TypeScript</span>.
         </p>
         <div className={Styles.icons}>
-          <a href="https://github.com/usuario" className={Styles.link}>
+          <a href="https://www.linkedin.com/in/matheus-rodrigues-1a1899231/" className={Styles.link}>
               <FontAwesomeIcon icon={faLinkedin} className={Styles.icon} />
           </a>
-          <a href="https://github.com/usuario" className={Styles.link}>
+          <a href="https://github.com/matheusrodrigues1" className={Styles.link}>
               <FontAwesomeIcon icon={faGithub} className={Styles.icon} />
           </a>
           <a href="https://github.com/usuario" className={Styles.link}>

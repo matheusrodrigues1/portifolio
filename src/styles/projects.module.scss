@@ -113,3 +113,45 @@
     }
   }
 }
+
+@media screen and (max-width: 380px){
+  .container {
+    display: flex;
+
+
+    .projetcs {
+      padding-bottom: 0px;
+      .image {
+        width: 75vw;
+      }
+  
+      span {
+        font-size: 11px;
+      }
+  
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 8px;
+      }
+  
+      .button {
+        display: inline-block;
+        width: 50vw;
+        padding: 5px 10px;
+        background-color: #007bff; /* Cor de fundo do botão */
+        color: white; /* Cor do texto no botão */
+        border: none;
+        border-radius: 20px; /* Adicionando bordas redondas */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 12px;
+      
+        &:hover {
+          background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+        }
+      }
+    }
+  }
+}

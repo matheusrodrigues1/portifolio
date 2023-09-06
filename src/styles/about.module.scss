@@ -91,3 +91,27 @@
     }
   }
 }
+
+@media screen and (max-width: 390px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    .cardleft {
+      width: 90%;
+      height: 60vh;
+      p {
+        font-size: 0.85rem;
+      }
+    }
+
+    .cardRight {
+      
+      .image {
+        height: 20vh;
+        width: 25vw;
+        margin-top: 30px;
+      }
+    }
+  }
+}
