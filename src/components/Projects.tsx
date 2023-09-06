@@ -16,7 +16,7 @@ export default function Projects() {
         <div className={Styles.projetcs}>
           <Image className={Styles.image} src={Projeto1} alt="projeto 1"/>
           <span>ESTUDO DE CASO</span>
-          <h2>Landingpage</h2>
+          <h2>Vitrine de Carros</h2>
           <button
           className={Styles.button}
           onClick={() => openNewWindow("https://carhub-ecru-tau.vercel.app/")}
