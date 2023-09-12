@@ -18,6 +18,7 @@
 
     h2 {
       font-weight: bold;
+      color: black;
     }
   }
 
@@ -30,6 +31,10 @@
     background-color: whitesmoke;
     margin-top: 40px;
     border: 1px solid transparent;
+
+    h4 {
+      color: black;
+    }
   }
 
   button {
@@ -50,4 +55,66 @@
     /* Outras propriedades de estilo se necessário */
   }
 
+}
+
+@media screen and (max-width: 490px){
+  .contactMe {
+    width: 100vw;
+    height: 50vh;
+    background-color: #cdbfe7;
+    overflow: hidden;
+    display: flex;
+    padding: 45px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+    .container {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      h2 {
+        font-weight: bold;
+        color: black;
+      }
+    }
+  
+    .action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 65vw;
+      height: 70px;
+      background-color: whitesmoke;
+      margin-top: 40px;
+      border: 1px solid transparent;
+  
+      h4 {
+        color: black;
+        font-size: 17px;
+      }
+    }
+  
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 65vw;
+      height: 70px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      background-color: #350053;
+      font-size: 20px;
+      color: white;
+    }
+  
+    .copiadoBackground {
+      background: linear-gradient(to bottom, #00b894, #93f3c5);
+      /* Outras propriedades de estilo se necessário */
+    }
+  
+  }
 }
