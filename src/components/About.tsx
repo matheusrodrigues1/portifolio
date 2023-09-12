@@ -25,7 +25,7 @@ const About = () => {
           <a href="https://github.com/matheusrodrigues1" className={Styles.link}>
               <FontAwesomeIcon icon={faGithub} className={Styles.icon} />
           </a>
-          <a href="https://github.com/usuario" className={Styles.link}>
+          <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?usp=sharing" className={Styles.link}>
               <FontAwesomeIcon icon={faFileLines} className={Styles.icon} />
           </a>
         </div>
